@@ -13,6 +13,10 @@ public abstract class Pozycja  {
         this.rokWydania = rokWydania;
     }
 
+    public Pozycja() {
+
+    }
+
     public String getTytul() {
         return tytul;
     }
